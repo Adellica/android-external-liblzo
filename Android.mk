@@ -79,6 +79,7 @@ common_C_INCLUDES += $(LOCAL_PATH)/include
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES:= $(common_SRC_FILES)
 LOCAL_C_INCLUDES:= $(common_C_INCLUDES)
+LOCAL_MODULE_TAGS:= eng
 LOCAL_MODULE := liblzo-static
 LOCAL_PRELINK_MODULE:= false
 include $(BUILD_STATIC_LIBRARY)
